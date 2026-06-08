@@ -2,6 +2,17 @@
 
 Triggered by `/time-capsule` or "use the skill time-capsule". Reviews the current conversation and saves everything worth keeping to the project memory system — decisions, preferences, architecture, future todos, warnings, and anything the user said but didn't explicitly ask to save.
 
+## Step 0 — Read existing memory first
+
+Before capturing anything, read all existing memory files for this project:
+1. Read `MEMORY.md` to see the full index
+2. Read every file listed in the index — understand what's already saved so you don't duplicate or overwrite with stale data
+3. Note anything that is now wrong or outdated based on this conversation — those get corrected, not just appended
+
+Only after reading everything, proceed to capture.
+
+---
+
 ## What to capture
 
 Work through each category below. For each one, decide: did anything new or changed happen in this conversation that a future Claude should know? If yes, write or update the memory. If no, skip it.
